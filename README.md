@@ -20,6 +20,12 @@ cd tokenledger
 # stdlib only — nothing to install
 ```
 
+Or run the multi-arch image (linux/amd64, linux/arm64, 386):
+
+```bash
+docker run --rm -v ~/.tokenledger:/root/.tokenledger wallydk24/tokenledger top
+```
+
 ## Usage
 
 ```bash
