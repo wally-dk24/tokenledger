@@ -1,0 +1,6 @@
+include = ["**/*.md", "**/*.markdown"]
+preview = false
+
+[[kinds]]
+path = "**/README.md"
+kind = "readme"
